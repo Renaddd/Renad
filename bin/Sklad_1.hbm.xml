@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!-- Generated 01.02.2020 19:28:01 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="application.Sklad_123" table="Sklad_1">
+        <id name="id" type="int">
+            <column name="id" />
+        </id>
+        <property name="tovar" type="java.lang.String">
+            <column name="Товар" />
+        </property>
+        <property name="kol" type="int">
+            <column name="Количество" />
+        </property>
+    </class>
+</hibernate-mapping>
